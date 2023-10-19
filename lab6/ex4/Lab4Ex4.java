@@ -1,9 +1,9 @@
-package Lab_ex6;
+package lab6.ex4;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class Ex4 {
+public class Lab4Ex4 {
 	public static void main(String[] args) {
 		Map<Integer, Integer> student=new HashMap<>();
 		student.put(1221,93);

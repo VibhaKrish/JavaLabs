@@ -1,9 +1,9 @@
-package Lab_ex6;
+package lab6.ex3;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class Ex3 {
+public class Lab6Ex3 {
 	public static void main(String[] args) {
         int[] num = {4,5,6,8,32,12};
         Map<Integer, Integer> getSquareMap = getSquares(num);
@@ -23,5 +23,4 @@ public class Ex3 {
         
         return getSquareMap;
     }
-
 }

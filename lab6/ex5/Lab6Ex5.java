@@ -1,6 +1,6 @@
-package Lab_ex6;
+package lab6.ex5;
 
-public class Ex5 {
+public class Lab6Ex5 {
 	public static void main(String[] args) {
         int[] num = {56,32,1,89,43,30,100,45};
         int getSecondSmall= getSecondSmall(num,num.length);

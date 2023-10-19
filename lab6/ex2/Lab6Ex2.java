@@ -1,7 +1,9 @@
-package Lab_ex6;
-import java.util.*;
+package lab6.ex2;
 
-public class Ex2 {
+import java.util.HashMap;
+import java.util.Map;
+
+public class Lab6Ex2 {
 	 public static void main(String[] args) {
 	        char[] charArray = {'a', 'b', 'c', 'a', 'b', 'd', 'e', 'a'};
 	        Map<Character, Integer> charCountMap = countChars(charArray);

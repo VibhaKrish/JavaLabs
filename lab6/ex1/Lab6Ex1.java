@@ -1,7 +1,11 @@
-package Lab_ex6;
-import java.util.*;
+package lab6.ex1;
 
-public class ex_1 {
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.List;
+
+public class Lab6Ex1 {
 	public static List<String> getValues(HashMap<Number, String> hashMap) {
         List<String> valuesList = new ArrayList<>(hashMap.values());
         Collections.sort(valuesList);
@@ -19,5 +23,3 @@ public class ex_1 {
         System.out.println("Sorted Values: " + sortedValues);
     }
 }
-
-
